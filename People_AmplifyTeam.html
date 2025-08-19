@@ -1,0 +1,1320 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en-US" style=""><head>
+		
+
+
+
+ 
+
+
+
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="initial-scale=1.0" name="viewport">
+    <meta content="7MiYjX2ZghMOWvtKRWlar--c6mD2ose5EcbQFQ6szFA" name="google-site-verification">
+    
+    <title>Amplify Team</title>
+    <meta content="University of California, San Diego" name="ORGANIZATION">
+    <meta content="index,follow,noarchive" name="robots">
+    <meta content="Music" name="SITE">
+    <meta content="Undergraduate Ambassadors" name="PAGETITLE">
+    <meta content="Undergraduate Ambassadors " name="DESCRIPTION">
+    <meta content="0d0e48200aaf69f52cb76e5d9e894762" name="id">
+
+   
+    
+
+
+    
+
+		
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link href="//cdn.ucsd.edu/cms/decorator-5/styles/bootstrap.min.css" rel="stylesheet">
+<link href="//cdn.ucsd.edu/cms/decorator-5/styles/base.min.css" rel="stylesheet">
+
+
+        
+        
+        <link href="https://cdn.ucsd.edu/cms/decorator-5/styles/_profile-template/profile-template-min.css" rel="stylesheet">
+       
+    
+
+
+
+<!-- Site-specific CSS files -->
+    
+    
+    
+<!-- Other CSS files -->
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="https://cdn.ucsd.edu/cms/decorator-5/styles/ie-support.css" />
+<![endif]-->
+
+<!-- Other JS files -->
+
+
+<script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/modernizr.min.js"></script>
+
+
+        
+    
+    
+
+
+<!-- Site-specific javascript files -->
+
+
+    
+
+<!--[if lt IE 9]>
+<script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/respond.min.js"></script>
+<link href="https://cdn.ucsd.edu/cms/decorator-5/scripts/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/_resources/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/_resources/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+
+
+	<style>.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #0000ff;
+  --rdp-background-color: #e7edff;
+  --rdp-accent-color-dark: #3003e1;
+  --rdp-background-color-dark: #180270;
+  --rdp-outline: 2px solid var(--rdp-accent-color); /* Outline border for focused elements */
+  --rdp-outline-selected: 2px solid rgba(0, 0, 0, 0.75); /* Outline border for focused _and_ selected elements */
+
+  margin: 1em;
+}
+
+/* Hide elements for devices that are not screen readers */
+.rdp-vhidden {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute !important;
+  top: 0;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  border: 0 !important;
+}
+
+/* Buttons */
+.rdp-button_reset {
+  appearance: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  color: inherit;
+  outline: none;
+  background: none;
+  font: inherit;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.rdp-button {
+  border: 2px solid transparent;
+}
+
+.rdp-button[disabled] {
+  opacity: 0.25;
+}
+
+.rdp-button:not([disabled]) {
+  cursor: pointer;
+}
+
+.rdp-button:focus:not([disabled]),
+.rdp-button:active:not([disabled]) {
+  color: inherit;
+  border: var(--rdp-outline);
+  background-color: var(--rdp-background-color);
+}
+
+.rdp-button:hover:not([disabled]) {
+  background-color: var(--rdp-background-color);
+}
+
+.rdp-months {
+  display: flex;
+}
+
+.rdp-month {
+  margin: 0 1em;
+}
+
+.rdp-month:first-child {
+  margin-left: 0;
+}
+
+.rdp-month:last-child {
+  margin-right: 0;
+}
+
+.rdp-table {
+  margin: 0;
+  max-width: calc(var(--rdp-cell-size) * 7);
+  border-collapse: collapse;
+}
+
+.rdp-with_weeknumber .rdp-table {
+  max-width: calc(var(--rdp-cell-size) * 8);
+  border-collapse: collapse;
+}
+
+.rdp-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  text-align: left;
+}
+
+.rdp-multiple_months .rdp-caption {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.rdp-caption_dropdowns {
+  position: relative;
+  display: inline-flex;
+}
+
+.rdp-caption_label {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 0.25em;
+  white-space: nowrap;
+  color: currentColor;
+  border: 0;
+  border: 2px solid transparent;
+  font-family: inherit;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.rdp-nav {
+  white-space: nowrap;
+}
+
+.rdp-multiple_months .rdp-caption_start .rdp-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.rdp-multiple_months .rdp-caption_end .rdp-nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.rdp-nav_button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--rdp-cell-size);
+  height: var(--rdp-cell-size);
+  padding: 0.25em;
+  border-radius: 100%;
+}
+
+/* ---------- */
+/* Dropdowns  */
+/* ---------- */
+
+.rdp-dropdown_year,
+.rdp-dropdown_month {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.rdp-dropdown {
+  appearance: none;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: inherit;
+  opacity: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.rdp-dropdown[disabled] {
+  opacity: unset;
+  color: unset;
+}
+
+.rdp-dropdown:focus:not([disabled]) + .rdp-caption_label,
+.rdp-dropdown:active:not([disabled]) + .rdp-caption_label {
+  border: var(--rdp-outline);
+  border-radius: 6px;
+  background-color: var(--rdp-background-color);
+}
+
+.rdp-dropdown_icon {
+  margin: 0 0 0 5px;
+}
+
+.rdp-head {
+  border: 0;
+}
+
+.rdp-head_row,
+.rdp-row {
+  height: 100%;
+}
+
+.rdp-head_cell {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  text-align: center;
+  height: 100%;
+  height: var(--rdp-cell-size);
+  padding: 0;
+}
+
+.rdp-tbody {
+  border: 0;
+}
+
+.rdp-tfoot {
+  margin: 0.5em;
+}
+
+.rdp-cell {
+  width: var(--rdp-cell-size);
+  height: 100%;
+  height: var(--rdp-cell-size);
+  padding: 0;
+  text-align: center;
+}
+
+.rdp-weeknumber {
+  font-size: 0.75em;
+}
+
+.rdp-weeknumber,
+.rdp-day {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: var(--rdp-cell-size);
+  max-width: var(--rdp-cell-size);
+  height: var(--rdp-cell-size);
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 100%;
+}
+
+.rdp-day_today:not(.rdp-day_outside) {
+  font-weight: bold;
+}
+
+.rdp-day_selected:not([disabled]),
+.rdp-day_selected:focus:not([disabled]),
+.rdp-day_selected:active:not([disabled]),
+.rdp-day_selected:hover:not([disabled]) {
+  color: white;
+  background-color: var(--rdp-accent-color);
+}
+
+.rdp-day_selected:focus:not([disabled]) {
+  border: var(--rdp-outline-selected);
+}
+
+.rdp:not([dir='rtl']) .rdp-day_range_start:not(.rdp-day_range_end) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rdp:not([dir='rtl']) .rdp-day_range_end:not(.rdp-day_range_start) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.rdp[dir='rtl'] .rdp-day_range_start:not(.rdp-day_range_end) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.rdp[dir='rtl'] .rdp-day_range_end:not(.rdp-day_range_start) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rdp-day_range_end.rdp-day_range_start {
+  border-radius: 100%;
+}
+
+.rdp-day_range_middle {
+  border-radius: 0;
+}
+</style></head>
+	<body>
+	    
+		<header></header>
+			
+			<!-- title section -->
+			<section aria-label="Site Name" class="layout-title">
+				<div class="layout-container container">
+					
+
+
+
+
+<a class="title-header title-header-large" href="/">
+            Music
+    </a>
+    
+<a class="title-header title-header-short" href="/">
+            Music
+    </a>
+
+    <a class="title-logo" href="http://www.ucsd.edu">UC San Diego</a>
+
+
+
+				</div>
+			</section>
+		</header>
+		
+		<div class="navmenu navmenu-default navmenu-fixed-left offcanvas" style="">
+		
+
+
+
+
+
+
+<ul class="nav navbar-nav navbar-right msearch">
+		    <li>
+			    <div class="search">
+		            <button aria-label="search" class="search-toggle btn-default">
+		                <span class="glyphicon glyphicon-search"></span> <span class="caret"></span>
+		            </button>
+
+		            <div class="search-content" id="search-m">
+
+                        <form action="/search/index.html" method="get">
+                            <label for="search-scope" style="display:none;">Search</label>
+                            <select class="search-scope" id="search-scope-m" name="search-scope">
+                                                                    <option selected="selected" value="music">This Site</option>
+                                                                <option value="default_collection">All UCSD Sites</option>
+                                <option value="faculty-staff">Faculty/Staff</option>
+                            </select>
+                        
+                            <div class="input-group">
+                                <label for="q-m" style="display:none;">Search Term</label>
+                                <input autofocus="autofocus" class="form-control search-term-m" id="q-m" name="search-term-m" placeholder="Search..." type="search">
+                            </div>
+                            <input class="sr-only" type="submit" value="Submit">
+                        </form>
+
+                    </div>
+        </div>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+  
+<button aria-controls="navbar" class="navbar-toggle sr-only" data-canvas="body" data-target=".navmenu" data-toggle="offcanvas" type="button">Close Nav</button>
+
+<ul class="nav navmenu-nav">
+                       
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                                                                                                                          
+                                                                                                                                                   
+                                                                                                                                                   
+                                 
+                                 
+                 
+          
+          <li class="dropdown open "><a href="../../about/index.html">About <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu navmenu-nav">
+                                                             <li><a href="../../about/contact/index.html">Contact</a></li>
+                                                                                                                                                   <li><a href="../../about/directions.html">Directions</a></li>
+                                                                                                                                                   <li><a href="../../about/facilities.html">Facilities</a></li>
+                                                                                                                                                   <li><a href="../../about/history.html">History</a></li>
+                                                                                                                                                   <li><a href="https://music-cms.ucsd.edu/intranet/">Intranet</a></li>
+                                                                                                                                                   <li><a href="../../about/partners.html">Partners</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../about/musicians-referral.html">Musicians Referral List</a></li>
+                                                                                                                                                   <li><a href="../../about/job-listings.html">Job Listings</a></li>
+                                                                                                                                                   <li><a href="../../about/accessibility.html">Accessibility</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                        
+                                 
+                 
+          
+          <li class="dropdown open "><a href="../index.html">People <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu navmenu-nav">
+                                                             <li><a href="../faculty/index.html">Faculty</a></li>
+                                                                                                                                                   <li><a href="../staff/index.html">Staff</a></li>
+                                                                                                                                                   <li><a href="../graduate/index.html">Graduate</a></li>
+                                                                                                                                                   <li><a href="../alumni/index.html">Alumni</a></li>
+                                                                                                                                                   <li><a href="../visiting_artists/index.html">Visitors</a></li>
+                                                                                                                                                   <li><a href="index.html">Undergrad Ambassadors</a></li>
+                                                                                                                                                   <li><a href="index.html">Amplify Team</a></li>
+                                                                                                                                                   <li><a href="../production-staff/index.html">Production Staff</a></li>
+                                                                                                                               </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                                                                                                                          
+                                 
+                                 
+                 
+          
+          <li class="dropdown open "><a href="../../ugrad/index.html">Undergrad Program <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu navmenu-nav">
+                                                             <li><a href="../../ugrad/undergrad-admissions.html">Admissions</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/advising.html">Advising</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/music-major.html">Music Major</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/music-hum-major.html">Music Humanities Major</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/icam-major.html">ICAM Major</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/music-minor.html">Minors</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/courses/index.html">Courses &gt;</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../ugrad/faqs.html">FAQs</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                                                                                                                          
+                                 
+                                 
+                 
+          
+          <li class="dropdown open "><a href="../../grad/index.html">Graduate Program <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu navmenu-nav">
+                                                             <li><a href="../../grad/admissions.html">Admissions</a></li>
+                                                                                                                                                   <li><a href="../../grad/areas-of-study.html">Areas of Study</a></li>
+                                                                                                                                                   <li><a href="../../grad/curriculum.html">Curriculum</a></li>
+                                                                                                                                                   <li><a href="../../grad/employment.html">Employment</a></li>
+                                                                                                                                                   <li><a href="../../grad/financial-support.html">Financial Support</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../grad/courses/index.html">Courses &gt;</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                        
+                                 
+                 
+          
+          <li class="dropdown open "><a href="../../concerts/index.html">News &amp; Events <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu navmenu-nav">
+                                                             <li><a href="../../concerts/live.html">Livestream</a></li>
+                                                                                                                                                   <li><a href="http://music-web.ucsd.edu/concerts/cms_index.php">Event Listing *</a></li>
+                                                                                                                                                   <li><a href="http://music-web.ucsd.edu/concerts/cms_index.php?i=804">Wednesdays @7 *</a></li>
+                                                                                                                                                   <li><a href="../../concerts/box_office.html">Box Office</a></li>
+                                                                                                                                                   <li><a href="../../concerts/directions.html">Directions</a></li>
+                                                                                                                                                   <li><a href="../../concerts/mailing_list.html">Mailing List</a></li>
+                                                                                                                                                   <li><a href="../../concerts/news/index.html">News</a></li>
+                                                                                                                                                   <li><a href="../../concerts/seating_charts.html">Seating Charts</a></li>
+                                                                                                                               </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                                                                                                                          
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                 
+                                 
+                 
+          
+          <li class="dropdown open "><a href="../../ensembles/index.html">Ensembles <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu navmenu-nav">
+                                                             <li><a href="../../ensembles/red-fish-blue-fish/index.html">red fish blue fish</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../ensembles/bass-ensemble/index.html">Bass Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/camera-lucida/index.html">Camera Lucida</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/chamber-music-ensemble/index.html">Chamber Music Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/chamber-singers/index.html">Chamber Singers</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/concert-choir/index.html">Concert Choir</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/gospel-ensemble/index.html">Gospel Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/indian_music_ensemble/index.html">Indian Music Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/jazz-ensemble/index.html">Jazz Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/kallisti/index.html">kallisti</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/palimpsest/index.html">Palimpsest</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/renga/index.html">Renga</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/symphonic-chorus/index.html">Symphonic Chorus</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/chamber-orchestra/index.html">Chamber Orchestra</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/vocal-studio/index.html">Vocal Studio</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/wind-ensemble/index.html">Wind Ensemble</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                                                                                                                    
+                
+        <li class=""><a href="../../giving/index.html">Giving</a>
+          
+                   
+                                                                                                                                                                                </li>
+         </ul>
+
+		</div>
+		
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="container">
+			    
+                <div class="navbar-header">
+        			<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle" data-canvas="body" data-target=".navmenu" data-toggle="offcanvas" type="button">
+          			    <span class="sr-only">Toggle navigation</span>
+    
+          					<div class="col-sm-1 mobile-nav-bars">
+          				    <span class="icon-bar"></span>
+          				    <span class="icon-bar"></span>
+          				    <span class="icon-bar"></span>
+             				</div>
+              			<div class="col-sm-1 mobile-nav-icon">
+                          MENU
+          			    </div>
+          			    
+                    </button>
+                    
+                    <div class="col-sm-4 pull-right visible-xs-block">
+                        <img alt="UC San Diego Logo" class="img-responsive header-logo" src="https://cdn.ucsd.edu/cms/decorator-5/styles/img/ucsd-footer-logo-white.png">
+                    </div>
+                    
+                </div>
+                
+                <div class="navbar-collapse collapse" id="navbar">
+			    
+    	            
+
+
+
+
+
+
+
+
+<ul class="nav navbar-nav navbar-nav-list">
+                       
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                                                                                                                          
+                                                                                                                                                   
+                                                                                                                                                   
+                                 
+                                 
+                 
+          
+          <li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" href="../../about/index.html">About <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu">
+                                                             <li><a href="../../about/contact/index.html">Contact</a></li>
+                                                                                                                                                   <li><a href="../../about/directions.html">Directions</a></li>
+                                                                                                                                                   <li><a href="../../about/facilities.html">Facilities</a></li>
+                                                                                                                                                   <li><a href="../../about/history.html">History</a></li>
+                                                                                                                                                   <li><a href="https://music-cms.ucsd.edu/intranet/">Intranet</a></li>
+                                                                                                                                                   <li><a href="../../about/partners.html">Partners</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../about/musicians-referral.html">Musicians Referral List</a></li>
+                                                                                                                                                   <li><a href="../../about/job-listings.html">Job Listings</a></li>
+                                                                                                                                                   <li><a href="../../about/accessibility.html">Accessibility</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                        
+                                 
+                 
+          
+          <li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" href="../index.html">People <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu">
+                                                             <li><a href="../faculty/index.html">Faculty</a></li>
+                                                                                                                                                   <li><a href="../staff/index.html">Staff</a></li>
+                                                                                                                                                   <li><a href="../graduate/index.html">Graduate</a></li>
+                                                                                                                                                   <li><a href="../alumni/index.html">Alumni</a></li>
+                                                                                                                                                   <li><a href="../visiting_artists/index.html">Visitors</a></li>
+                                                                                                                                                   <li><a href="index.html">Amplify Team</a></li>
+                                                                                                                                                   <li><a href="../production-staff/index.html">Production Staff</a></li>
+                                                                                                                               </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                                                                                                                          
+                                 
+                                 
+                 
+          
+          <li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" href="../../ugrad/index.html">Amplify Team <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu">
+                                                             <li><a href="../../ugrad/undergrad-admissions.html">Admissions</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/advising.html">Advising</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/music-major.html">Music Major</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/music-hum-major.html">Music Humanities Major</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/icam-major.html">ICAM Major</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/music-minor.html">Minors</a></li>
+                                                                                                                                                   <li><a href="../../ugrad/courses/index.html">Courses &gt;</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../ugrad/faqs.html">FAQs</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                                                                                                                          
+                                 
+                                 
+                 
+          
+          <li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" href="../../grad/index.html">Graduate Program <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu">
+                                                             <li><a href="../../grad/admissions.html">Admissions</a></li>
+                                                                                                                                                   <li><a href="../../grad/areas-of-study.html">Areas of Study</a></li>
+                                                                                                                                                   <li><a href="../../grad/curriculum.html">Curriculum</a></li>
+                                                                                                                                                   <li><a href="../../grad/employment.html">Employment</a></li>
+                                                                                                                                                   <li><a href="../../grad/financial-support.html">Financial Support</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../grad/courses/index.html">Courses &gt;</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                        
+                                 
+                 
+          
+          <li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" href="../../concerts/index.html">News &amp; Events <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu">
+                                                             <li><a href="../../concerts/live.html">Livestream</a></li>
+                                                                                                                                                   <li><a href="http://music-web.ucsd.edu/concerts/cms_index.php">Event Listing *</a></li>
+                                                                                                                                                   <li><a href="http://music-web.ucsd.edu/concerts/cms_index.php?i=804">Wednesdays @7 *</a></li>
+                                                                                                                                                   <li><a href="../../concerts/box_office.html">Box Office</a></li>
+                                                                                                                                                   <li><a href="../../concerts/directions.html">Directions</a></li>
+                                                                                                                                                   <li><a href="../../concerts/mailing_list.html">Mailing List</a></li>
+                                                                                                                                                   <li><a href="../../concerts/news/index.html">News</a></li>
+                                                                                                                                                   <li><a href="../../concerts/seating_charts.html">Seating Charts</a></li>
+                                                                                                                               </ul>
+       
+                             </li>
+                                
+                                                                                 
+                                                             
+                                                                                                                                                                                                                                                          
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                                                                                                                                   
+                                 
+                                 
+                 
+          
+          <li class="dropdown"><a aria-expanded="false" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" href="../../ensembles/index.html">Ensembles <span class="caret"></span>          </a>
+                   
+                                                                                  <ul class="dropdown-menu">
+                                                             <li><a href="../../ensembles/red-fish-blue-fish/index.html">red fish blue fish</a></li>
+                                                                                                                                                                                                                                                          <li><a href="../../ensembles/bass-ensemble/index.html">Bass Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/camera-lucida/index.html">Camera Lucida</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/chamber-music-ensemble/index.html">Chamber Music Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/chamber-singers/index.html">Chamber Singers</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/concert-choir/index.html">Concert Choir</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/gospel-ensemble/index.html">Gospel Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/indian_music_ensemble/index.html">Indian Music Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/jazz-ensemble/index.html">Jazz Ensemble</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/kallisti/index.html">kallisti</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/palimpsest/index.html">Palimpsest</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/renga/index.html">Renga</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/symphonic-chorus/index.html">Symphonic Chorus</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/chamber-orchestra/index.html">Chamber Orchestra</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/vocal-studio/index.html">Vocal Studio</a></li>
+                                                                                                                                                   <li><a href="../../ensembles/wind-ensemble/index.html">Wind Ensemble</a></li>
+                        </ul>
+       
+                             </li>
+                                
+                                                                                                                                                                                    
+                
+        <li class=""><a href="../../giving/index.html">Giving</a>
+          
+                   
+                                                                                                                                                                                </li>
+         </ul>
+
+    	            
+    	            <div class="btn-nav"></div>
+    		
+    				
+
+
+
+
+
+<ul class="nav navbar-nav navbar-right">
+		    <li>
+			    <div class="search">
+		            <button aria-label="search" class="search-toggle btn-default">
+		                <span class="glyphicon glyphicon-search"></span> <span class="caret"></span>
+		            </button>
+
+		            <div class="search-content" id="search">
+
+                        <form action="/search/index.html" id="cse-search-box" method="get">
+                            <label class="sr-only" for="search-scope">Search Scope</label>
+                            <select class="search-scope" id="search-scope" name="search-scope">
+                                                                    <option selected="selected" value="music">This Site</option>
+                                                                <option value="default_collection">All UCSD Sites</option>
+                                <option value="faculty-staff">Faculty/Staff</option>
+                            </select>
+                        
+                            <div class="input-group">
+                                <label for="q" id="search-term-label" style="display:none;">Search Term</label>
+                                <input autofocus="autofocus" class="form-control search-term" id="q" name="search-term" placeholder="Search..." type="search">
+                            </div>
+                            <input class="sr-only" type="submit" value="Submit">
+                        </form>
+
+                    </div>
+        </div>
+    </li>
+</ul>
+
+
+
+				
+				</div><!--end nav collapse -->
+
+			</div>
+		</nav>
+		<main class="layout-main" id="main-content">
+		    
+			<div class="container">
+			    <div class="row">
+				    
+
+<div class="container">
+    <div class="row">
+        <ol aria-label="Breadcrumb" class="breadcrumb breadcrumbs-list">
+        
+                                                    
+                                    
+                        
+                                    
+                                   <li><a href="../../index.html">HOME</a></li>
+                                
+                                                        
+                                    
+                        
+                                    
+                                   <li><a href="../index.html">People</a></li>
+                                
+                                                        
+                                    
+                        
+                                                                            
+                                        <li aria-current="page">Amplify Team</li>
+                                        
+                                            
+        </ol>
+    </div>
+</div>
+				</div>
+			</div>
+			<div class="container">
+			    <div class="row">
+				    
+
+
+
+
+
+        
+        
+
+        
+
+        
+                    
+        
+
+<section class="col-md-9 col-sm-12 main-section pull-right">
+    
+        
+    
+    
+
+        
+    
+        
+        
+        
+        
+        
+                            
+            
+                          
+            
+                                                              <h1 class="header-main" data-cy="asset-header">Amplify Team</h1>
+                                      
+                        
+                    <article class="clearfix profile-listing main-section-content">
+                    <ul aria-label="Profiles List" role="region">
+        
+                            <li aria-label="" class="profile-listing-card" role="region" tabindex="0">
+                                                                        <span>
+                                <img alt="Jiwoo (Celeste) Son" src="Jiwoo (Celeste) Son.jpg">
+                            </span>
+                                                                <span class="profile-listing-data">
+                        <p class="h3">
+                            <strong>Jiwoo (Celeste) Son</strong>
+                        </p>
+                        <p>Email: <a href="mailto:jison@ucsd.edu">jison@ucsd.edu</a>&nbsp;(she/her)&nbsp;</p>
+<p>Majors: ICAM-Music & Cognitive Science (Machine Learning and Neural Computation) Double Major&nbsp;</p>
+<p>Year: 3rd Year&nbsp;</p>
+<p>Role: music production, video editing, graphic design, website</p>
+                    </span>
+                </li>
+            
+            
+                    
+                            <li aria-label="Kristina Tran" class="profile-listing-card" role="region" tabindex="0">
+                                                                        <span>
+                                <img alt="Kristina Tran" src="Kristina Tran.png">
+                            </span>
+                                                                <span class="profile-listing-data">
+                        <p class="h3">
+                            <strong>Kristina Tran</strong>
+                        </p>
+                        <p>Email: <a href="mailto:krt001@ucsd.edu">krt001@ucsd.edu</a>&nbsp;(-)&nbsp;</p>
+<p>Undergrad Archive Liason</p>
+<p>Majors/Minor: ICAM Music & Cognitive and Behavioral Neuroscience Double Major; Japanese Studies Minor&nbsp;</p>
+<p>Year: 4th Year&nbsp;</p>
+<p>Role: ---</p>
+                    </span>
+                </li>
+            
+            
+                    
+                            <li aria-label="Aidan (KADO) Guarnieri" class="profile-listing-card" role="region" tabindex="0">
+                                                                        <span>
+                                <img alt="Aidan (KADO) Guarnieri" src="Aidan (KADO) Guarnieri.png">
+                            </span>
+                                                                <span class="profile-listing-data">
+                        <p class="h3">
+                            <strong>Aidan (KADO) Guarnieri</strong>
+                        </p>
+                        <p>Email: <a href="mailto:aguarnieri@ucsd.edu">aguarnieri@ucsd.edu</a>&nbsp;(-)&nbsp;</p>
+<p>Major: ICAM Music Major&nbsp;</p>
+<p>Year: Graduated &nbsp;</p>
+<p>Role: Filming, Video Editing, Music Production</p>
+                    </span>
+                </li>
+            
+            
+                    
+                            <li aria-label="Ava Deluca" class="profile-listing-card" role="region" tabindex="0">
+                                                                        <span>
+                                <img alt="Ava Deluca" src="Ava Deluca.jpg">
+                            </span>
+                                                                <span class="profile-listing-data">
+                        <p class="h3">
+                            <strong>Ava Deluca</strong>
+                        </p>
+                        <p>Email: <a href="mailto:adeluca@ucsd.edu">adeluca@ucsd.edu</a>&nbsp;(-)&nbsp;</p>
+<p>Major/Minor: Media Industries and Communication Major, Music Minor&nbsp;</p>
+<p>Year: 3rd Year&nbsp;</p>
+<p>Role: Creative Writing</p>
+                    </span>
+                </li>
+            
+            
+                    
+                            <li aria-label="Cho (Chocola) Liu" class="profile-listing-card" role="region" tabindex="0">
+                                                                        <span>
+                                <img alt="Cho (Chocola) Liu" src="Cho (Chocola) Liu.png">
+                            </span>
+                                                                <span class="profile-listing-data">
+                        <p class="h3">
+                            <strong>Cho (Chocola) Liu</strong>
+                        </p>
+                        <p>Email: <a href="mailto:chl295@ucsd.edu">chl295@ucsd.edu</a>&nbsp;(-)&nbsp;</p>
+<p>Major: ICAM-Music Major&nbsp;</p>
+<p>Year: 2nd Year&nbsp;</p>
+<p>Role: Video Production, Filming</p>
+                    </span>
+                </li>
+            
+            
+                    
+                            <li aria-label="Kalea Porter" class="profile-listing-card" role="region" tabindex="0">
+                                                                        <span>
+                                <img alt="Kalea Porter" src="Kalea Porter.jpg">
+                            </span>
+                                                                <span class="profile-listing-data">
+                        <p class="h3">
+                            <strong>Kalea Porter</strong>
+                        </p>
+                        <p>Email: <a href="mailto:klporter@ucsd.edu">klporter@ucsd.edu</a>&nbsp;(she/her)</p>
+<p>Major/Minor: ICAM-Music Major, Computer Science Minor&nbsp;</p>
+<p>Year: 3rd Year</p>
+<p>Role: Music Production</p>
+                    </span>
+                </li>
+            
+            
+                        </ul>
+            </article>
+                
+        
+        
+        
+                                    
+            
+                          
+            
+                                                              <below-profile>
+                                                  </below-profile></section>
+
+
+
+
+				    
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section aria-label="Sidebar" class="col-xs-12 col-md-3 sidebar-section" role="complementary">
+    
+                <figure aria-label="Logo" id="site-logo" role="complementary">
+            <logo>
+        </logo></figure>
+        
+                            <article aria-label="Sidebar Nav" class="main-content-nav" role="navigation">
+                                                                                                                            
+                    
+                                                                            
+        
+            <h2>
+                                    <a href="../index.html">People</a>
+                    </h2>
+                    <ul class="navbar-list">
+                                                                                                                                                                                                                                    
+            
+                                                                                                            <li class="collapsed">
+                    <a href="../faculty/index.html">
+                Faculty
+            </a>
+            </li>
+                                                                                                                            
+            
+                                                                                                            <li class="collapsed">
+                    <a href="../staff/index.html">
+                Staff
+            </a>
+            </li>
+                                                                                                                            
+            
+                                                                                                            <li class="collapsed">
+                    <a href="../graduate/index.html">
+                Graduate
+            </a>
+            </li>
+                                                                                                                            
+            
+                                                                                                            <li class="collapsed">
+                    <a href="../alumni/index.html">
+                Alumni
+            </a>
+            </li>
+                                                                                                                            
+            
+                                                                                                            <li class="collapsed">
+                    <a href="../visiting_artists/index.html">
+                Visitors
+            </a>
+            </li>
+                                                                                                                            
+            
+                                                                                                                                                                                                                                                                                                                                                        <li class="active">
+                                        Amplify Team
+                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                       
+                                                                
+                    
+                                     </li>
+                                                                                                        
+            
+                                                                                                            <li class="collapsed">
+                    <a href="../production-staff/index.html">
+                Production Staff
+            </a>
+            </li>
+                                                                                                                            
+            
+                                                                                                            </ul>
+                
+                        </article>
+            
+            
+                            <custom>
+                </custom></section>
+
+			    </div>
+			</div>
+		</main>
+		<footer class="footer">
+			
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+        <p>
+        <span>UC San Diego 9500 Gilman Dr. La Jolla, CA 92093 (858) 534-2230</span>
+        <br>
+        <span>
+        Copyright © <span class="footer-copyright-year">2025</span> Regents of the University of California.
+        All rights reserved.
+        </span>
+        </p>
+            <ul class="footer-links">
+                <li><a href="https://accessibility.ucsd.edu/">Accessibility</a></li>
+                <li><a href="https://ucsd.edu/about/privacy.html">Privacy</a></li>
+                <li><a href="https://ucsd.edu/about/terms-of-use.html">Terms of Use</a></li>
+                <li>
+                        <a href="mailto:trevor@cloud.ucsd.edu">Feedback</a>
+            </li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-4">
+            <a href="https://ucsd.edu/"><img alt="UCSD homepage" class="img-responsive footer-logo" src="https://cdn.ucsd.edu/developer/decorator/5.0.2/img/ucsd-footer-logo-white.png"></a>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/jquery.min.js"></script>
+<script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/bootstrap.min.js"></script>
+<script src="https://www.ucsd.edu/common/_emergency-broadcast/message.js"></script>
+<script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/vendor.min.js"></script>
+<script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/base.min.js"></script>
+
+
+        
+    
+
+
+<!-- Site-specific javascript files -->
+
+
+
+
+                        
+
+
+
+
+<script>
+    $(document).ready(function() {
+      $('.js-activated').dropdownHover().dropdown();
+    });
+  </script>
+
+        
+    <script src="https://cdn.ucsd.edu/cms/decorator-5/scripts/decorator.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+            initCopyright();
+        });
+    })(jQuery);
+    </script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4BFFNHMWSW"></script>
+<script>// <![CDATA[
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4BFFNHMWSW', {'cookie_domain': 'music-cms.ucsd.edu'});
+// ]]></script>
+    
+		</footer>
+	
+</body></html>
